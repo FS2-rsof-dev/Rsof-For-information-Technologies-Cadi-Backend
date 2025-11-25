@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\TwoFactorAuth\Observer\AdminLogin">
+        <plugin name="custom_disable_tfa_observer" type="Custom\DisableTfa\Plugin\BypassTfaObserverPlugin" sortOrder="1"/>
+    </type>
+    <type name="Magento\TwoFactorAuth\Api\TfaInterface">
+        <plugin name="custom_disable_tfa" type="Custom\DisableTfa\Plugin\BypassTfaPlugin" sortOrder="1"/>
+    </type>
+    <type name="Magento\TwoFactorAuth\Api\TfaSessionInterface">
+        <plugin name="custom_disable_tfa_session" type="Custom\DisableTfa\Plugin\BypassTfaSessionPlugin" sortOrder="1"/>
+    </type>
+</config>

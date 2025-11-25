@@ -1,0 +1,27 @@
+# Magento 2
+/vendor/
+/var/
+/pub/static/
+/pub/media/
+/generated/
+/app/etc/env.php   # sensitive, do not commit
+
+# Docker volumes (keep if you use Docker)
+/dbdata/
+/opensearch-data/
+/sockdata/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
