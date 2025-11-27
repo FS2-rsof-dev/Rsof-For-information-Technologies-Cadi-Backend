@@ -2,6 +2,9 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
+        <referenceBlock name="privacyPolicy" remove="true"/>
+        <referenceBlock name="report" remove="true"/>
+        <referenceBlock name="version" remove="true"/>
         <referenceBlock name="logo">
             <arguments>
                 <argument name="logo_image_src" xsi:type="string">Custom_AdminBranding::images/cadi_logo.png</argument>
@@ -11,4 +14,3 @@
         <referenceBlock name="copyright" template="Custom_AdminBranding::page/copyright.phtml"/>
     </body>
 </page>
-

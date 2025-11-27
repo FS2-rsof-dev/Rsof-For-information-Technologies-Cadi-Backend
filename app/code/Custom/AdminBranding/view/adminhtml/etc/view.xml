@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+    <media>
+        <favicon>Custom_AdminBranding::images/cadi_logo.png</favicon>
+        <shortcut_icon>Custom_AdminBranding::images/cadi_logo.png</shortcut_icon>
+        <touch_icon>Custom_AdminBranding::images/cadi_logo.png</touch_icon>
+    </media>
+</view>
+

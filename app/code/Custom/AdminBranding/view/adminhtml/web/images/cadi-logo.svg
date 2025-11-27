@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="48" viewBox="0 0 180 48">
+    <defs>
+        <linearGradient id="cadiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0ea5e9"/>
+            <stop offset="100%" stop-color="#6366f1"/>
+        </linearGradient>
+    </defs>
+    <rect x="2" y="2" width="176" height="44" rx="10" fill="url(#cadiGradient)" />
+    <text x="90" y="30" font-size="22" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" fill="#ffffff" letter-spacing="4">
+        CADI
+    </text>
+</svg>
+
