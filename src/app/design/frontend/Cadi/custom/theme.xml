@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Cadi Custom Theme
+ * Extends Magento Luma theme for full customization
+ */
+-->
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>Cadi Custom Theme</title>
+    <version>1.0.0</version>
+    <parent>Magento/luma</parent>
+</theme>
